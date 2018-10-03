@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>xj in a box</h1>
+</header>
+
+<div id="wrapperHeader">
+ <div id="header">
+   <img src="game-of-life.png" alt="logo" /> <img src="game-of-life.png" alt="logo" />
+ </div> 
+</div>
+
+<nav>
+  <ul>
+  	 <li><a href="/index.html">Home</a></li>
+    <li><a href="/about.html">About</a></li>
+  	 <li><a href="/research.html">Research</a></li>
+    <li><a href="/problems.html">Problems</a></li>
+    <li><a href="/trail_mix.html">Trail mix</a></li>
+  </ul>
+</nav>
+
+<article>
+  	<h1>Hello my homies</h1>
+  	<p>
+		I'm XJ, a senior majoring in physics at Vanderbilt. Currently enjoying the summer and climbing. I made this personal webpage to keep a copy of my self-introduction (you know I sometimes forget who and where I am...) and other little things I've garnered. Feel free to poke around and extract anything of worth to you, if there is any at all.
+	</p>
+	<p>This site is undergoing heavy blasting and construction...
+  		&emsp;Bang bang bangity bang! If something doesn't work, it's probably trying to figure itself out.
+  	</p>
+  	<p>
+  		As you've probably already noticed, I am no expert in web design.<br> Yet, I hope the web page serves its purpose of sharing some things <br>
+		about myself and what I've learned in physics.
+	</p>
+	<!--
+	Welcome to this little cozy cyber abode of mine! Please feel at home and poke around if you wish. <br>
+		The navigation panel on the left hold the doors to an assorted collection of rooms, containing <br>
+		assorted collections of toys for display and sharing.
+  -->	
+	<p>
+		Here is a list of my profiles: <br>
+		&emsp; <a href="mailto:xiaojia.j.xu@vanderbilt.edu">Email</a> <br>
+		&emsp; <a href="https://github.com/xj-xu">GitHub</a> <br>
+		&emsp; <a href="https://www.google.com/">Google Scholar</a> (Kinda made this for fun since I don't have anything on it) <br>
+		The following might be pushing the boundary of what is considered useful: <br>
+		&emsp; <a href="https://www.instagram.com/xj_j_xu/">Instagram</a> (click for my climbing vids) <br> 
+		&emsp; <a href="https://m.facebook.com/xj.xu.52/">Facebook</a> <br> 
+		&emsp; <a href="https://spotify.com">Spotify</a> <br> 
+		&emsp; <a href="/jk.html">Venmo</a> <br> 
+		&emsp; <a href="/jk2.html">Tinder</a> <br> 
+	</p>
+	
+	<!--
+  Everyday I'm shuffling
+  <p>a xj particle is observed to occupy a few different states,
+  some being more degenerate than others.</p>
+  <p>The eigenstates of xj in a confined spherical potential is 
+  presented to you on this page.</p>
+  	-->
+
+</article>
+<! this comment is hidden >
+<img src="IMG_1901.JPG" height="248" width="430"
+     
+     id="the red river gorge">
+    
+<!-- href="https://xj-xu.github.io/testsite/">Testing link - press me baby-->
+
+<footer>Copyright &copy; Ji corporations</footer>
+
+</div>
+
+</body>
+</html>
