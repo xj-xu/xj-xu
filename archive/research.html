@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>xj in a box</h1>
+</header>
+  
+<nav>
+  <ul>
+  	 <li><a href="/old_index.html">Home</a></li>
+    <li><a href="/about.html">About</a></li>
+  	 <li><a href="/research.html">Research</a></li>
+    <li><a href="/problems.html">Problems</a></li>
+    <li><a href="/climbing.html">Climbing</a></li>  
+  </ul>
+</nav>
+
+<article>
+  <h1>Research</h1>
+  <p>Condensed matter and biophysics.</p>
+  <p>
+  I am particularly interested in studying active matter systems that exhibit emergent phenomena, such as collective behavior and self-organization. Examples of these systems include, but is not limited to: wound healing in Drosophila epithelia and flocking of starlings.
+  </p>
+</article>
+
+<article>
+	<h1>Current projects</h1>
+	<h3>Cell mechanics</h3>
+	<p>
+	Looking at cell layers and how the little cells are pushing against each other to achieve a cool collective phenomenon - wound healing!<br>
+	Currently working on an updated web-based application of the Cellular Force Inference Toolkit (CellFIT) that allows users to access the software from a browser. The goal is to apply the web-based CellFIT to time-resolved image stacks of wound healing in Drosophila epithelia and see the spatial and temporal variations in cellular forces as the wounds close.
+	</p>
+	<img src="/images/fem_vis.png" height="550" width="650">
+</article>
+
+<article>
+  	<h1>Past projects</h1>
+  	<h3>Density functional theory</h3>
+  	<p>Some awesome simulations of a little diode!</p>
+  	<video height="400" width="600" controls autoplay loop>
+  		<source src="/videos/nano_diode.mp4" type="video/mp4">
+	</video>
+  	<p>Abstract: Time-dependent density functional theory is utilized to simulate an asymmetrical jellium model, representing a nano-scale vacuum-tube diode comprised of bulk lithium. A sharp tip on one end of the jellium model allows for enhanced field emission upon interaction with an external laser field, leading to a preferential net current direction. This is verified by comparing the rate of electron transfer between the effective anode and cathode tips for both the diode jellium model and a symmetric cylinder jellium shape for various laser phase parameters. This rate of transfer is shown to significantly increase with smaller separation distances. With stronger laser intensities, this rate similarly increases but levels off as local near-field enhancements become negligible.</p>
+	<p>
+		<a href="https://aip.scitation.org/doi/abs/10.1063/1.5019259">Link to paper</a><br>
+  		<a href="/pdf/Kidd-Xu.pdf">Paper PDF</a><br>
+  		<a href="/pdf/APS_March_Xu_030618.pdf">APS slides</a><br>
+  		<a href="https://github.com/xj-xu/dft_nano_diode">GitHub repo</a>
+  	</p>
+</article>
+
+
+<footer>Copyright &copy; XJ Xu</footer>
+
+</div>
+
+</body>
+</html>
